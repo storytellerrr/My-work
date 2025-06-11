@@ -1,0 +1,6 @@
+# Arithmetic sequence starting at 5 with a common difference of 3 for 8 terms
+start = 5
+difference = 3
+terms = 8
+arithmetic_sequence = [start + i * difference for i in range(terms)]
+print(arithmetic_sequence)
